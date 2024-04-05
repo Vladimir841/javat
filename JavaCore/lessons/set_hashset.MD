@@ -355,13 +355,13 @@ Implement a method that accepts a List of strings and returns a HashMap. The key
 ["cat", "dog", "elephant", "lion", "tiger"]
 
 #### _Sample Output 1:_
-{3=["cat", "dog"], 5=["tiger", "lion"], 8=["elephant"]}
+{3=["cat", "dog"], 4=["lion"], 5=["tiger"], 8=["elephant"]}
 
 #### _Sample Input 2:_
 ["apple", "banana", "kiwi", "grape"]
 
 #### _Sample Output 2:_
-{5=["apple"], 6=["banana", "grape"], 4=["kiwi"]}
+{4=[kiwi], 5=["apple", "grape"], 6=["banana"]}
 
 </pre>
 </details>
